@@ -1,12 +1,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
 
-#COPY *.csproj .
-COPY . ./
+COPY *.csproj .
+#COPY . ./
 
 RUN dotnet restore
 
-#COPY . ./
+COPY . ./
 
 RUN dotnet publish -c Relase -o out
 
