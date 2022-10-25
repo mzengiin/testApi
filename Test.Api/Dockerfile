@@ -3,7 +3,6 @@ WORKDIR /app
 
 COPY *.csproj .
 #COPY . ./
-
 RUN dotnet restore
 
 COPY . ./
