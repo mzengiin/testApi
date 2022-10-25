@@ -19,7 +19,7 @@ if (app.Environment.IsDevelopment())
 }
 
 //app.UseHttpsRedirection();
-
+//Muhammed
 app.UseAuthorization();
 
 app.MapControllers();
