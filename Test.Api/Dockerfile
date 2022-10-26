@@ -17,4 +17,6 @@ COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet","Test.Api.dll"]
 
 
+RUN dotnet run --urls "http://*:1000"
+
 

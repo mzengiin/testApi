@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.Urls.Add("http://*:1000");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
