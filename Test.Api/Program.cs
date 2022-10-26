@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls("http://*:1000");
+//builder.WebHost.UseUrls("http://*:1000");
 
 // Add services to the container.
 
@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.Urls.Add("http://*:1000");
+//app.Urls.Add("http://*:1000");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
