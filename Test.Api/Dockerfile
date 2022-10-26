@@ -9,14 +9,12 @@ COPY . ./
 
 ENV ASPNETCORE_URLS=http://*:1000
 
-RUN dotnet publish -c Relase -o out
+RUN dotnet publish -c Relase -o out --urls "http://*:1000"
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet","Test.Api.dll"]
 
-
-RUN dotnet run --urls "http://*:1000"
 
 
