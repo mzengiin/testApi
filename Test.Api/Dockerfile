@@ -7,7 +7,7 @@ RUN dotnet restore
 
 COPY . ./
 
-ENV ASPNETCORE_URLS=http://+:1000
+ENV ASPNETCORE_URLS=http://*:1000
 
 RUN dotnet publish -c Relase -o out
 
