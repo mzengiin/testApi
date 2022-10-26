@@ -8,7 +8,7 @@ builder.WebHost.ConfigureKestrel((context, serverOptions) =>
   
 });
 
-//builder.WebHost.UseUrls("http://*:1000");
+builder.WebHost.UseUrls("http://*:1000");
 
 // Add services to the container.
 
@@ -18,6 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //builder.WebHost.ConfigureKestrel(options => options.ListenLocalhost(1000));
+
 
 
 var app = builder.Build();
@@ -37,5 +38,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
 
