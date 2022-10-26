@@ -1,4 +1,12 @@
+using System.Net;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.ConfigureKestrel((context, serverOptions) =>
+{
+    serverOptions.Listen(IPAddress.Loopback, 1000);
+  
+});
 
 //builder.WebHost.UseUrls("http://*:1000");
 
