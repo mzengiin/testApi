@@ -9,7 +9,7 @@ COPY . ./
 
 ENV ASPNETCORE_URLS=http://*:1000
 
-RUN dotnet publish -c Relase -o out --url "http://*:1000"
+RUN dotnet publish -c Relase -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
