@@ -1,0 +1,11 @@
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Test.Api.exe
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Test.Api.dll
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Test.Api.deps.json
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Test.Api.runtimeconfig.json
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Test.Api.pdb
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Techvizyon Projeler\OKAEnerji\TestSolutions\Test.Api\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
