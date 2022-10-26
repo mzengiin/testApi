@@ -1,5 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls("http://*:1000");
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -8,7 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //builder.WebHost.ConfigureKestrel(options => options.ListenLocalhost(1000));
-builder.WebHost.UseUrls("http://*:1000");
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
